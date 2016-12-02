@@ -135,25 +135,3 @@ footer {
   color: #ADADAD;
   text-align: center;
 }
-
-
-
-/*Estilos para pantallas menores*/
-
-
-@media (max-width: 890px) {
-
-	h1 {
-	}
-
-  section {
-    margin: 0 2rem;
-    width: 80%;
-  margin-top: 2rem;
-}
-
-.icono {
-  display: none;
-}
-
-}
