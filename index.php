@@ -1,30 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
   <link rel="stylesheet" href="/css/master.css">
+
   <title>Bienvenido</title>
 </head>
 
 <body>
   <section>
-        <div class="logo"><h1>Jack lab</h1></div>
+        <div class="titulobox"><h2>PROYECTO</h2>
+        <h1>Biblioteca Continental</h1>
+        </div>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.‹›</p>
+        <div class="icono"><img src="img/icono.png" alt="icono" class="logosite"></div>
 
-        <ul>
-          <li><a href="https://frontendlab.herokuapp.com/projects/portafolio/index.html">Portafolio</a></li>
-          <li><a href="https://frontendlab.herokuapp.com/projects/blog_parallax/index.html">Proyecto parallax</a></li>
-          <li><a href="https://frontendlab.herokuapp.com/projects/demipatu/index.html">Demipatu</a></li>
-          <li><a href="#">Proyect in progress</a></li>
-          <li><a href="#">Proyect in progress</a></li>
-        </ul>
+                <p class="description">Este es un proyecto de diseño de actualización de  interfaz para la biblioteca virtual de la Universidad Continental para plataformas moodle.</p>
+
+                <hr>
+
+        <div class="contenedor">
+          <div class="item"><img src="img/sketch.png" href="*"alt="icon2" class="sketchicn"><a href="*">PROYECTO 01</a><p class="projectname">Login</p></div>
+          <div class="item"><img src="img/sketch.png" alt="icon2" class="sketchicn"><a href="*">PROYECTO 02</a><p class="projectname">Segundo interior</p></div>
+          <div class="item"><img src="img/sketch.png" alt="icon2" class="sketchicn"><a href="*">PROYECTO 03</a><p class="projectname">Tercer interior</p></div>
+
+        </div>
+
+        <hr>
 
         <footer>
-            <p>Jack Huaman   hola.jack@gmail.com</p>
+            <p>hola.jack@gmail.com</p>
         </footer>
+
+  </section>
 
 </body>
 </html>
