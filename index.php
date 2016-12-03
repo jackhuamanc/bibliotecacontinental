@@ -38,7 +38,7 @@
               <div class="icon_dribbble"><a href="#"><img src="img/dribbble_icon.png" alt=""></img></a>
               </div>
 
-              <h3>dribble.com</h3>
+              <h3>dribble.com/</h3>
 
               <h4>jackhuaman</h4>
 
