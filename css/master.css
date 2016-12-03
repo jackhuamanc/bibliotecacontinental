@@ -38,10 +38,11 @@ section {
   box-shadow: 0 30px 40px 0 rgba(0,0,0,0.35);
   border-radius: 7px 7px 7px 0 7px;
   -webkit-border-radius: 7px;
-  width: 43%;
+  width: 600px;
   margin: 0 auto;
   margin-top: 4rem;
-  padding: 1.5rem 2rem;
+  padding:1.5rem 2rem;
+height: 29rem;
 }
 
 section .contenedor .sketchicn {
@@ -122,31 +123,63 @@ margin-left: 1.5rem;
 }
 
 .contenedor {
-  display: flex;
-  flex-direction:row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  line-height: 0.5rem;
+      display: flex;
+      flex-direction:row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      line-height: 0.5rem;
 }
 
 .item {
-  width: 30%;
+      width: 30%;
 }
 
 footer {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 12px;
-  color: #ADADAD;
-  text-align: center;
+    position:relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 4.5rem;
 }
+
+.dribbble_container {
+      width: 33%;
+      margin-bottom: 4rem;
+      margin-right: 0px;
+      float: right;
+      display: inline-block;
+
+    }
+
+.icon_dribbble {
+  float: left;
+ margin-right: 1rem;
+}
+
+
+h3 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      color: #ADAFB2;
+      font-weight: 300;
+      margin-right: 0px;
+}
+
+h4 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      color: #32393D;
+      font-family: 2000;
+      margin-right: 0px;
+
+}
+
 
 
 
 /*Estilos para pantallas menores*/
 
 
-@media (max-width: 880px) {
+@media (max-width: 650px) {
 
   section {
     width: 80%;
@@ -156,5 +189,17 @@ footer {
 .icono {
   width: 20%;
   }
+footer {
+  display: inline-block;
+}
+
+footer .dribbble_container {
+  width: 33%;
+  margin-bottom: 4rem;
+  margin-right: 0px;
+  float: none;
+  display: inline-block;
+
+}
 
 }

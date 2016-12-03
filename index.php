@@ -20,7 +20,7 @@
 
         <div class="icono"><img src="img/icono.png" alt="icono" class="logosite"></div>
 
-                <p class="description">Este es un proyecto de diseño de actualización de  interfaz para la biblioteca virtual de la Universidad Continental para plataformas moodle.</p>
+                <p class="description">Hey,<br>Este es un proyecto de diseño de actualización de  interfaz para la biblioteca virtual de la Universidad Continental para plataformas moodle.</p>
 
                 <hr>
 
@@ -34,7 +34,17 @@
         <hr>
 
         <footer>
-            <p>hola.jack@gmail.com</p>
+          <div class="dribbble_container">
+              <div class="icon_dribbble"><a href="#"><img src="img/dribbble_icon.png" alt=""></img></a>
+              </div>
+
+              <h3>dribble.com</h3>
+
+              <h4>jackhuaman</h4>
+
+          </div>
+
+          <h2></h2>
         </footer>
 
   </section>
