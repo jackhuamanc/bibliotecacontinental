@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="css/master.css">
 
-  <title>Bienvenido</title>
+  <title>Welcome</title>
 </head>
 
 <body>
