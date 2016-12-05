@@ -22,7 +22,7 @@ a {
 
 p {line-height: 1.3rem;}
 
-a:hover {
+.contenedor a:hover {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #e2b76d;
@@ -54,8 +54,8 @@ section .contenedor .sketchicn {
 
 .titulobox {
   float: left;
-  margin-top: 0rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -64,6 +64,7 @@ h1 {
   font-size: 28px;
   color: #262323;
   margin-top: 0px;
+  margin-bottom: 4rem;
 
 }
 
@@ -78,8 +79,8 @@ h2 {
   }
 hr {
   border: 1px dashed #EBEBEB;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 
 
 }
@@ -88,7 +89,7 @@ hr {
     float: right;
     top: 0px;
     margin-right: 0rem;
-    margin-top: 0px;
+    margin-top: 1rem;
     max-width: 100%;
     height: auto;
 }
@@ -99,7 +100,7 @@ section .description {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   margin: 0 auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 14px;
   color: #ADADAD;
   line-height: 22px;
@@ -113,7 +114,6 @@ section .contenedor p {
 section .contenedor .projectname {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  margin-bottom: 3rem;
   font-weight: 300;
 font-size: 14px;
 color: #ADADAD;
@@ -128,6 +128,9 @@ margin-left: 1.5rem;
       justify-content: space-around;
       flex-wrap: wrap;
       line-height: 0.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+
 }
 
 .item {
@@ -138,12 +141,11 @@ footer {
     position:relative;
     width: 100%;
     height: 50px;
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
 }
 
 .dribbble_container {
       width: 33%;
-      margin-bottom: 4rem;
       margin-right: 0px;
       float: right;
       display: inline-block;
@@ -152,9 +154,40 @@ footer {
 
 .icon_dribbble {
   float: left;
- margin-right: 1rem;
+  margin-right: 1rem;
+
 }
 
+.button {
+  float: left;
+  margin-top: 0.5rem;
+}
+
+footer h5 {
+  display: inline-block;
+  margin-left: 0.4rem;
+  margin-top: 0.7rem;
+  color: rgb(244, 86, 140);
+}
+
+footer .box a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #c23d3d;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  margin-top: 0px;
+}
+
+footer .box a:hover {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #992828;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
 
 h3 {
       font-family: 'Open Sans', sans-serif;
@@ -167,7 +200,7 @@ h3 {
 h4 {
       font-family: 'Open Sans', sans-serif;
       font-size: 20px;
-      color: #32393D;
+      color: rgb(212, 215, 219);
       font-family: 2000;
       margin-right: 0px;
 
@@ -179,7 +212,7 @@ h4 {
 /*Estilos para pantallas menores*/
 
 
-@media (max-width: 650px) {
+/*@media (max-width: 650px) {
 
   section {
     width: 80%;
@@ -202,4 +235,67 @@ footer .dribbble_container {
 
 }
 
+}*/
+
+
+/*Pop up css*/
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+
+  margin: 70px auto;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+  /*transition: all 5s ease-in-out;*/
+}
+
+.popup h1 {
+  margin-bottom: 2rem;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  overflow: auto;
+}
+
+.popup .imginfo img{
+  width: 100%;
+  margin: 0 auto;
 }
