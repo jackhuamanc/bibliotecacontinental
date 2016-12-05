@@ -25,7 +25,7 @@
                 <hr>
 
         <div class="contenedor">
-          <div class="item"><img src="img/sketch.png" href="*"alt="icon2" class="sketchicn"><a href="*">PROYECTO 01</a><p class="projectname">Login</p></div>
+          <div class="item"><img src="img/sketch.png" href="*"alt="icon2" class="sketchicn"><a href="http://biblioteca.continental.edu.pe/projects/login/login/login.html">PROYECTO 01</a><p class="projectname">Login</p></div>
           <div class="item"><img src="img/sketch.png" alt="icon2" class="sketchicn"><a href="*">PROYECTO 02</a><p class="projectname">Segundo interior</p></div>
           <div class="item"><img src="img/sketch.png" alt="icon2" class="sketchicn"><a href="*">PROYECTO 03</a><p class="projectname">Tercer interior</p></div>
 
