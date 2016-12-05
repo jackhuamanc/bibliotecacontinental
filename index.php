@@ -20,7 +20,7 @@
 
         <div class="icono"><img src="img/icono.png" alt="icono" class="logosite"></div>
 
-                <p class="description">Hey,<br>Este es un proyecto de diseño de actualización de  interfaz para la biblioteca virtual de la Universidad Continental para plataformas moodle.</p>
+                <p class="description">Hey,<br>Este es un proyecto de diseño de actualización de  interfaz para la biblioteca virtual de la Universidad Continental.</p>
 
                 <hr>
 
@@ -33,9 +33,22 @@
 
         <hr>
 
+
+
         <footer>
+
+          <div class="box">
+
+            <div class="button">
+              <img src="img/help.png" alt="ayuda">
+            </div>
+                <a class="button" href="#popup1" ><h5>Ayuda</h5></a>
+
+          </div>
+
+
           <div class="dribbble_container">
-              <div class="icon_dribbble"><a href="#"><img src="img/dribbble_icon.png" alt=""></img></a>
+              <div class="icon_dribbble"><a href="https://dribbble.com/JackHuaman"><img src="img/dribbble_icon.png" alt=""></img></a>
               </div>
 
               <h3>dribble.com/</h3>
@@ -46,6 +59,24 @@
 
           <h2></h2>
         </footer>
+
+
+        <!-- POP UP CSS -->
+
+        <div id="popup1" class="overlay">
+          <div class="popup">
+            <h1>Como usar el preview</h1>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+              (A) Al presionar el boton de la parte superior derecha es posible contraer los paneles, (B) Por defecto se observara el diseño en 50%, pero es podible cambiarlo con los botones + y - , (C) Si se selecciona un asset (imagen) es posible exportarla presionando este boton
+              <div class="imginfo"><img src="img/img_info.png" alt="imagen_info"></div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--  -->
+
 
   </section>
 
