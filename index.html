@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="css/master.css">
 
-  <title>Welcome</title>
+  <title>Catálogo en línea</title>
 </head>
 
 <body>
@@ -25,9 +25,9 @@
                 <hr>
 
         <div class="contenedor">
-          <div class="item"><img src="img/sketch.png" href="*"alt="icon2" class="sketchicn"><a href="http://bibliotecacontinental.herokuapp.com/pages/login/index.html">PROYECTO 01</a><p class="projectname">Login</p></div>
-          <div class="item"><img src="img/sketch.png" alt="icon2" class="sketchicn"><a href="http://bibliotecacontinental.herokuapp.com/extras/index.html">PROYECTO 02</a><p class="projectname">Segundo interior</p></div>
-          <div class="item"><img src="img/sketch.png" alt="icon2" class="sketchicn"><a href="*">PROYECTO 03</a><p class="projectname">Tercer interior</p></div>
+          <div class="item"><img src="img/sketch.png" href="*"alt="icon2" class="sketchicn"><a href="http://bibliotecacontinental.herokuapp.com/pages/inicio/index.html">INTERIOR 01</a><p class="projectname">Inicio</p></div>
+          <div class="item"><img src="img/sketch.png" alt="icon2" class="sketchicn"><a href="http://bibliotecacontinental.herokuapp.com/pages/login/index.html">INTERIOR 02 02</a><p class="projectname">Login</p></div>
+          <div class="item"><img src="img/sketch.png" alt="icon2" class="sketchicn"><a href="http://bibliotecacontinental.herokuapp.com/page/busqueda/index.html">INTERIOR 03</a><p class="projectname">Busqueda</p></div>
 
         </div>
 
